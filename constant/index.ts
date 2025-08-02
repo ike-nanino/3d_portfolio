@@ -1,3 +1,5 @@
+import { ViewportFlags } from "@/types";
+
 export const navLinks = [
   {
     id: 1,
@@ -269,13 +271,14 @@ export const calculateSizes = ({
       : isTablet
       ? [5, 4, 0]
       : [12, 3, 0],
+    // 🔧 FIXED: Rings positioned at top left, mirroring ReactLogo
     ringPosition: isSmall
-      ? [-5, 7, 0]
+      ? [-3, 4, 0]    // Mirror of ReactLogo [3, 4, 0]
       : isMobile
-      ? [-10, 10, 0]
+      ? [-5, 4, 0]    // Mirror of ReactLogo [5, 4, 0]
       : isTablet
-      ? [-12, 10, 0]
-      : [-24, 10, 0],
+      ? [-5, 4, 0]    // Mirror of ReactLogo [5, 4, 0]
+      : [-12, 3, 0],  // Mirror of ReactLogo [12, 3, 0]
     targetPosition: isSmall
       ? [-5, -10, -10]
       : isMobile
