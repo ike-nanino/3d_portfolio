@@ -1,6 +1,7 @@
 import About from "@/components/sections/About"
 import Hero from "@/components/sections/Hero"
 import Navbar from "@/components/sections/Navbar"
+import Projects from "@/components/sections/Projects"
 
 
 function Home() {
@@ -9,8 +10,7 @@ function Home() {
       <Navbar />
       <Hero />
       <About />
-
-
+      <Projects />
     </main>
   )
 }

@@ -28,7 +28,7 @@ const About = () => {
     <section className="sm:px-10 px-5 my-20" id="about">
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
         <div className="col-span-1 xl:row-span-3">
-          <div className="w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-7 p-4 flex flex-col gap-5">
+          <div className="w-full h-full border border-black-300 bg-[#0E0E10] rounded-lg sm:p-7 p-4 flex flex-col gap-5">
             <div className="relative w-full sm:h-[276px] h-48">
               <Image 
                 src="/assets/grid1.png" 
@@ -49,7 +49,7 @@ const About = () => {
         </div>
 
         <div className="col-span-1 xl:row-span-3">
-          <div className="w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-7 p-4 flex flex-col gap-5">
+          <div className="w-full h-full border border-black-300 bg-[#0E0E10] rounded-lg sm:p-7 p-4 flex flex-col gap-5">
             <div className="relative w-full sm:h-[276px] h-48">
               <Image 
                 src="/assets/grid2.png" 
@@ -70,7 +70,7 @@ const About = () => {
         </div>
 
         <div className="col-span-1 xl:row-span-4">
-          <div className="w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-7 p-4 flex flex-col gap-5">
+          <div className="w-full h-full border border-black-300 bg-[#0E0E10] rounded-lg sm:p-7 p-4 flex flex-col gap-5">
             <div className="rounded-3xl w-full sm:h-[326px] h-64 flex justify-center items-center">
               <Globe
                 height={326}
@@ -92,7 +92,7 @@ const About = () => {
         </div>
 
         <div className="xl:col-span-2 xl:row-span-3">
-          <div className="w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-7 p-4 flex flex-col gap-5">
+          <div className="w-full h-full border border-black-300 bg-[#0E0E10] rounded-lg sm:p-7 p-4 flex flex-col gap-5">
             <div className="relative w-full sm:h-[266px] h-48">
               <Image 
                 src="/assets/grid3.png" 
@@ -113,7 +113,7 @@ const About = () => {
         </div>
 
         <div className="xl:col-span-1 xl:row-span-2">
-          <div className="w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-7 p-4 flex flex-col gap-5">
+          <div className="w-full h-full border border-black-300 bg-[#0E0E10] rounded-lg sm:p-7 p-4 flex flex-col gap-5">
             <div className="relative w-full md:h-[126px] sm:h-[276px] h-32">
               <Image
                 src="/assets/grid4.png"
