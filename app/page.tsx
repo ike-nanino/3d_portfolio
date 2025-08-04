@@ -1,7 +1,9 @@
 import About from "@/components/sections/About"
+import Contact from "@/components/sections/Contact"
 import Hero from "@/components/sections/Hero"
 import Navbar from "@/components/sections/Navbar"
 import Projects from "@/components/sections/Projects"
+import WorkExperience from "@/components/sections/WorkExperience"
 
 
 function Home() {
@@ -11,6 +13,8 @@ function Home() {
       <Hero />
       <About />
       <Projects />
+      <WorkExperience />
+      <Contact />
     </main>
   )
 }
