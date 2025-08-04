@@ -5,6 +5,7 @@ import dynamic from 'next/dynamic';
 
 import Image from 'next/image';
 import Button from '../Button';
+import Link from 'next/link';
 
 // Dynamically import Globe with no SSR
 const Globe = dynamic(() => import('react-globe.gl'), {
@@ -16,7 +17,7 @@ const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(' adrian@jsmastery.pro');
+    navigator.clipboard.writeText('ikesemanu@gmail.com');
     setHasCopied(true);
 
     setTimeout(() => {
@@ -39,9 +40,9 @@ const About = () => {
             </div>
 
             <div>
-              <p className="text-xl font-semibold mb-2 text-white font-generalsans">Hi, I&apos;m Isaac Semanu</p>
+              <p className="text-lg font-semibold mb-2 text-white font-generalsans">Hi, I&apos;m Isaac Semanu</p>
               <p className="text-[#afb0b6] text-base font-generalsans">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
+                With 4 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
                 and responsive websites.
               </p>
             </div>
@@ -60,7 +61,7 @@ const About = () => {
             </div>
 
             <div>
-              <p className="text-xl font-semibold mb-2 text-white font-generalsans">Tech Stack</p>
+              <p className="text-lg font-semibold mb-2 text-white font-generalsans ">Tech Stack</p>
               <p className="text-[#afb0b6] text-base font-generalsans">
                 I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
                 applications
@@ -80,13 +81,16 @@ const About = () => {
                 showGraticules
                 globeImageUrl="https://unpkg.com/three-globe/example/img/earth-night.jpg"
                 bumpImageUrl="https://unpkg.com/three-globe/example/img/earth-topology.png"
-                labelsData={[{ lat: 40, lng: -100, text: 'Rjieka, Croatia', color: 'white', size: 15 }]}
+                labelsData={[{ lat: 40, lng: -100, text: 'Accra, Ghana', color: 'white', size: 15 }]}
               />
             </div>
             <div>
-              <p className="text-xl font-semibold mb-2 text-white font-generalsans">I&apos;m very flexible with time zone communications & locations</p>
-              <p className="text-[#afb0b6] text-base font-generalsans">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
+              <p className="text-lg font-semibold mb-2 text-white font-generalsans">I&apos;m very flexible with time zone communications & locations</p>
+              <p className="text-[#afb0b6] text-base font-generalsans">I&apos;m based in Accra, Ghana and open to remote work worldwide.</p>
+              <Link href='#contact'>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              </Link>
+              
             </div>
           </div>
         </div>
@@ -103,7 +107,7 @@ const About = () => {
             </div>
 
             <div>
-              <p className="text-xl font-semibold mb-2 text-white font-generalsans">My Passion for Coding</p>
+              <p className="text-lg font-semibold mb-2 text-white font-generalsans">My Passion for Coding</p>
               <p className="text-[#afb0b6] text-base font-generalsans">
                 I love solving problems and building things through code. Programming isn&apos;t just my
                 profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
@@ -114,7 +118,7 @@ const About = () => {
 
         <div className="xl:col-span-1 xl:row-span-2">
           <div className="w-full h-full border border-black-300 bg-[#0E0E10] rounded-lg sm:p-7 p-4 flex flex-col gap-5">
-            <div className="relative w-full md:h-[126px] sm:h-[276px] h-32">
+            <div className="relative w-full md:h-[126px] sm:h-[276px] h-fit">
               <Image
                 src="/assets/grid4.png"
                 alt="grid-4"
@@ -134,7 +138,7 @@ const About = () => {
                     className="object-contain"
                   />
                 </div>
-                <p className="lg:text-2xl md:text-xl font-medium text-gray text-white">adrian@jsmastery.pro</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray text-white">ikesemanu@gmail.com</p>
               </div>
             </div>
           </div>

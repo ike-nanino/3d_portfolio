@@ -54,7 +54,7 @@ const Contact = () => {
     <section id="contact" className="flex-center px-5 md:px-10 md:mt-40 mt-20">
       <div className="w-full h-full md:px-10 px-5">
         <p className="sm:text-4xl text-3xl font-semibold bg-gradient-to-r from-[#BEC1CF] from-60% via-[#D5D8EA] via-60% to-[#D5D8EA] to-100% bg-clip-text text-transparent">
-          Get in Touch – Let's Connect
+          Get in Touch – Let&apos;s Connect
         </p>
 
         <div className="grid lg:grid-cols-12 grid-cols-1 gap-8 mt-16">
@@ -118,7 +118,7 @@ const Contact = () => {
                   disabled={loading}
                   className="w-full"
                 >
-                  <div className="p-4 bg-pink-600 hover:bg-pink-700 transition-colors rounded-lg group disabled:opacity-50 disabled:cursor-not-allowed">
+                  <div className="p-4 bg-blue-600 hover:bg-blue-600/50 transition-colors rounded-lg group disabled:opacity-50 disabled:cursor-not-allowed">
                     <p className="text-white font-medium text-center">
                       {loading ? "Sending..." : "Send Message"}
                     </p>
@@ -129,7 +129,7 @@ const Contact = () => {
           </div>
           
           <div className="lg:col-span-7 min-h-96">
-            <div className="bg-[#cd7c2e] w-full h-full hover:cursor-grab rounded-3xl overflow-hidden">
+            <div className="bg-[#0E0E10] w-full h-full hover:cursor-grab rounded-3xl overflow-hidden">
               <ContactExperience />
             </div>
           </div>

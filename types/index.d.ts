@@ -4,6 +4,12 @@ type ViewportFlags = {
   isTablet: boolean;
 };
 
+export interface ButtonProps {
+  name: string;
+  isBeam?: boolean;
+  containerClass?: string;
+  onClick?: () => void;
+};
 
 export interface SizeConfig {
   deskScale: number;

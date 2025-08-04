@@ -19,7 +19,7 @@ const WorkExperience = () => {
         </p>
         
         <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 mt-12">
-          <div className="col-span-1 rounded-lg bg-black-200 border border-black-300">
+          <div className="col-span-1 rounded-lg bg-[#0E0E10] border border-black-300">
             <Canvas>
               <ambientLight intensity={7} />
               <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
@@ -32,7 +32,7 @@ const WorkExperience = () => {
             </Canvas>
           </div>
           
-          <div className="col-span-2 rounded-lg bg-black-200 border border-black-300">
+          <div className="col-span-2 rounded-lg bg-[#0E0E10] border border-black-300">
             <div className="sm:py-10 py-5 sm:px-5 px-2.5">
               {workExperiences.map((item, index) => (
                 <div
